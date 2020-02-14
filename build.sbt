@@ -9,6 +9,7 @@ lazy val root = (project in file("."))
       "-deprecation",
       "-feature"
     ),
+    scalaVersion := "2.12.8",
     javacOptions ++= {
       val ver = "1.8"
 
